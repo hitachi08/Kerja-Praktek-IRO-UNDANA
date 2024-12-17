@@ -1,0 +1,35 @@
+{
+  "name": "iro/undana",
+  "description": "Web application for managing VRF data at Universitas Nusa Cendana",
+  "autoload": {
+    "psr-4": {
+      "Iro\\Undana\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Beni Milian Liufeto",
+      "email": "beniliufeto08@gmail.com",
+      "role": "Fullstack Developer"
+    },
+    {
+      "name": "Ranti Ayu Ningtyas Koro",
+      "email": "ayukoro04@gmail.com",
+      "role": "Backend Developer"
+    },
+    {
+      "name": "Annika Laurensia Hipir",
+      "email": "annikahhipir17@gmail.com",
+      "role": "Frontend Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "phpoffice/phpspreadsheet": "^3.5",
+    "phpmailer/phpmailer": "^6.9",
+    "tecnickcom/tcpdf": "^6.7",
+    "setasign/fpdf": "^1.8",
+    "setasign/fpdi": "^2.6",
+    "vlucas/phpdotenv": "^5.6"
+  }
+}

@@ -1,0 +1,113 @@
+* {
+  font-family: "Poppins";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(image/japan.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.container-fluid {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  z-index: 1000;
+}
+
+#day-name,
+#date,
+#time {
+  color: white;
+}
+
+#day-name {
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 0.8rem;
+  font-weight: bold;
+  text-shadow: 0px 0px 4px #00000028;
+}
+
+#date,
+#time {
+  font-size: 1.2rem;
+}
+
+.container_left {
+  background: url("image/Campus.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 2rem;
+}
+
+.container_right {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.container-all {
+  width: 100%;
+  max-width: 100%; 
+  min-height: 30vw;
+  margin: 0 auto; 
+  padding: 1rem; 
+}
+
+.text-welcome {
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  background-color: #00509e;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #003b73;
+}
+
+@media (min-width: 992px) {
+  .container-all {
+    max-width: 800px; 
+    max-height: 800px;
+  }
+}
+
+.log_text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.register-label {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+.register-label a {
+  color: #3498db;
+  text-decoration: none;
+}
+.register-label a:hover {
+  text-decoration: underline;
+}

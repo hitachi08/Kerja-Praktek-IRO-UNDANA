@@ -1,0 +1,128 @@
+* {
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(image/japan.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/* Membuat logo dan teks di kiri atas */
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.container-fluid {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+#day-name,
+#date,
+#time {
+  color: white;
+}
+
+#day-name {
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 0.8rem;
+  font-weight: bold;
+  text-shadow: 0px 0px 4px #00000028;
+}
+
+#date,
+#time {
+  font-size: 1.2rem;
+}
+
+/* Container Left (image background) */
+.container_left {
+  background-image: url("image/Campus.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Right Container (form styling) */
+.container_right {
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Inside Left Container */
+.text-welcome {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Form Styling */
+.log_text {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333 !important;
+}
+
+/* Form Input Field */
+input.form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button Styling */
+button[type="submit"] {
+  background-color: #00509e;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #003b73;
+}
+
+/* Error Messages */
+.alert {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Register Link */
+.register-label {
+  font-size: 14px;
+  color: #333;
+}
+
+.register-label a {
+  color: #00509e;
+  text-decoration: none;
+}
+
+.register-label a:hover {
+  text-decoration: underline;
+}
+
+/* Styling untuk perangkat mobile */
+@media (max-width: 767px) {
+  #first_name {
+    margin-bottom: 1rem; /* menambahkan margin-bottom hanya pada perangkat mobile */
+  }
+}
